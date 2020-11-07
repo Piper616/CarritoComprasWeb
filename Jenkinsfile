@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                bat 'Neatbeans64.exe CarritoTest.java'
+                bat 'C:\\Program Files\\Java\\jdk1.8.0_111\\bin CarritoTest.java'
             }
         }
         stage('Finalizando') {
