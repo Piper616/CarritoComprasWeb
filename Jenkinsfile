@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                dir("CarritoTest.java")
+                dir("C:\Program Files\NetBeans 8.2\bin CarritoTest.java")
             }
         }
         stage('Finalizando') {
