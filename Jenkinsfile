@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                dir("C:/Program Files/NetBeans 8.2/bin/Netbeans64.exe CarritoTest.java")
+                dir("C:/Program Files/NetBeans 8.2/bin/netbeans64.exe CarritoTest.java")
             }
         }
         stage('Finalizando') {
